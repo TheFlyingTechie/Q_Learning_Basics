@@ -13,7 +13,7 @@ epsilon = 0.5
 start_decay = 1
 end_decay = epochs // 2
 decay = epsilon/(end_decay - start_decay)
-output = True
+output = False
 summary = False
 file = open('output.txt', 'w')
 
