@@ -17,7 +17,8 @@ logging.basicConfig(
 alpha = 0.1
 gamma = 0.6
 epsilon = 0.1
-decay = 0.001
+episodes = 100000
+decay = epsilon / (episodes / 1000)
 
 all_epochs = []
 all_penalties = []
@@ -26,7 +27,6 @@ env = gym.make('Taxi-v3').env
 env.reset()
 
 q_table = np.zeros([env.observation_space.n, env.action_space.n])
-episodes = 100000
 
 #Start training
 
