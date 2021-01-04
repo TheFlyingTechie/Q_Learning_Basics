@@ -1,12 +1,12 @@
 # Q_Learning_Basics
 
-This is the code for my tutorial on q learning on Instagram. It trains an AI to drive up a hill.
+This is the code for my tutorials on q learning on Instagram.
 The required libraries for this program are:
 1. Numpy
 2. Gym
 3. Tqdm
 
-To have the output of the program saved to a file, replace "output = False" with "output = True".
+In QLearning.py, to have the output of the program saved to a file, replace "output = False" with "output = True".
 If you only want the summary of the program, replace
 
     output = False
@@ -17,3 +17,5 @@ to
     summary = True
     
 It will save to an output.txt file.
+
+In q_learning_taxi.py, it will log the testing phase to a file called taxi-output.txt.
