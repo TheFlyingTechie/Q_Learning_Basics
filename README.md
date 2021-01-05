@@ -18,4 +18,6 @@ to
     
 It will save to an output.txt file.
 
-In q_learning_taxi.py, it will log the testing phase to a file called taxi-output.txt.
+In q_learning_taxi.py and updated_q_learning_taxi.py, it will log the testing phase to a file called taxi-output.txt.
+
+updated_q_learning_taxi.py allows you to save and load q tables.
